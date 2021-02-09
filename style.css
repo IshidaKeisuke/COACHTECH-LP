@@ -109,7 +109,7 @@ li{
 	background-color: gray;
 }
 .secondary{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 .contents h2{
@@ -332,6 +332,9 @@ small{
 	background-color: black;
 	color: white;
 	padding: 45px 20px;
+  }
+  .secondary{
+	  width: 90%;
   }
   .content{
 	  background-color: black;
