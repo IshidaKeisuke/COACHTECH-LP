@@ -1,3 +1,419 @@
-body{
-  width: 100%;
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.wrapper{
+	background-color: black;
+	width: 97.3%;
+	height: 20px;
+	color: white;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+.header-logo{
+	color: white;
+	float: left;
+	font-size: 25px;
+}
+ul{
+	text-align: right;
+}
+li{
+	display: inline-block;
+	justify-content: space-evenly;
+	margin: 10px;
+	font-size: 25px;
+}
+.main{
+	background-image: url("eyecatch.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+	position: relative;
+}
+.text p{
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 200;
+	padding: 20% 50px 40px ;
+	font-size: 35px;
+}
+.info p{
+	background-color: white;
+	bottom: 0%;
+	left: 50%;
+	position: absolute;
+	padding:  30px;
+	margin-right: 35px;
+}
+.news p{
+	text-align: center;
+	background-color: black;
+	color: white;
+	bottom: 0%;
+	right: 0%;
+	position: absolute;
+	padding:  45px 125px;
+	background-clip: padding-box;
+}
+.content{
+	background:black;
+	width: 100%;
+	height: 500px;
+	font-size: 20px;
+	color: white;
+	z-index: 1;
+}
+.content h2{
+	font-family: 'Batang';
+	padding: 75px;
+	font-size: 25px;
+}
+.content p{
+	position: relative;
+	padding: 25px;
+	z-index: 3;
+}
+.content img {
+	position: absolute;
+	right: 20%;
+	height: 400px;
+	margin-right: 35px;
+	z-index: 2;
+	top: 100%;
+	right: 10%;
+}
+.contents_1 img{
+	margin: 0 auto;
+	width: 95%;
+}
+.mission{
+	margin: 30px;
+}
+.supplement{
+	color: black;
+	background-color: white;
+	padding: 10px;
+}
+.service{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 1450px;
+	background-color: gray;
+}
+.secondary{
+	width: 90%;
+	margin: 0 auto;
+}
+.contents h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 75px;
+	font-weight: bold;
+}
+.contents img{
+	margin: auto 0;
+	position: relative;
+	height: 400px;
+	float: right;
+	width: 100%;
+	z-index: 1;
+}
+.section{
+	position: absolute;
+	background-color: white;
+	letter-spacing: 3px;
+	padding: 35px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	margin-left: 65px;
+	z-index: 2;
+	color: black;
+}
+.section h2{
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 35px;
+	padding-left: 15px;
+}
+ .section h3,.section p{
+	padding-top: 15px;
+	padding-left: 15px;
+} 
+.contents_1 img{
+	margin: auto 0;
+	position: relative;
+	height: 400px;
+	float: right;
+	width: 100%;
+	z-index: 1;
+}
+.section_1{
+	position: absolute;
+	background-color: white;
+	letter-spacing: 3px;
+	padding: 35px;
+	padding-bottom: 40px;
+	margin-top: 47%;
+	margin-left: 33%;
+	z-index: 2;
+}
+.section_1 h2{
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 40px;
+	padding-right: 15px;
+}
+.section_1 h3,.section_1 p{
+	padding-top: 15px;
+	padding-right: 15px;
+}
+.detail{
+	margin: 25px;
+}
+.details{
+	color: black;
+	background-color: white;
+	padding: 10px;
+	border: 1px solid black;
+}
+.double{
+	display: flex;
+	margin-top: 15%;
+}
+.company{
+	background-image: url(company.jpeg);
+	background-repeat: no-repeat;
+	background-size:100% ;
+	background-position: left;
+	height: 50%;
+	width: 15%;
+	color: white;
+	text-align: center;
+	padding:12%;
+}
+.recruit{
+	background-image: url(recruit.jpg);
+	background-repeat: no-repeat;
+	background-size:100% ;
+	height: 50%;
+	width: 15%;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 25%;
+	padding:12%;
+}
+.question{
+	background-color: black;
+	margin: 10%;
+	height: 125px;
+	width: 80%;
+	color: white;
+}
+.faq{
+	float: left;
+	margin: 25px;
+	font-size: 35px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.situmon{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	text-align: center;	
+	padding-top: 55px;
+}
+.contact{
+	text-align: center;
+}
+.inquiry{
+	color: white;
+	background-image: url(contact-bg.jpg);
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	height: 600px;
+	padding-top: 20%;	
+	}
+.inquiry h2{
+	font-size: 35px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 10px;
+}
+.inquiry p{
+	padding: 15px;
+}
+.inquiry h3{
+	padding: 10px;
+	font-size: 30px;
+	font-weight: 100;
+}
+.tell{
+	border: 1px solid white;
+}
+footer{
+	background-color: black;
+}
+small{
+	color: white;
+	text-align: center;
+}
+@media screen and (max-width:768px){
+  .hamburger {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	cursor: pointer;
+	top: 15px;
+	right: 40px;
+	transition: 0.4s;
+  }	
+  .hamburger span {
+	position: absolute;
+	left: 3px;
+	display: block;
+	width: 35px;
+	height: 2px;
+	background-color: #fff;
+	transition: 0.8s;
+  }
+  .hamburger span:nth-of-type(1){
+	  top: 10px;
+  }
+  .hamburger span:nth-of-type(2){
+	  top: 20px;
+  }
+  .hamburger span:nth-of-type(3){
+	  top: 30px;
+  }
+  .wrapper{
+	  width: 89%;
+  }
+  .wrapper li{
+	  display: none;
+  }
+  .main{
+	background-image: url("eyecatch.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+  }
+  .text p{
+	  font-size: 60px;
+	  font-weight: bold;
+  }
+.notice{
+	display: flex;
+	margin-bottom: 0%;
+}
+  .info p{
+	position: static;  
+	background-color: white;
+	text-align: center;
+	margin-right:0 ;
+	bottom: 15px;
+  }
+  .news{
+	  bottom: 0%;
+  }
+  .news p{
+	  position: static;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 45px 20px;
+  }
+  .content{
+	  background-color: black;
+	  height: 775px;
+  }
+  .content img{
+		position: absolute;
+	  	height: 200px;
+		margin-top: 100%;
+		left: 20%;
+	}
+	.content h2{
+		font-size: 30px;
+		font-weight: 200;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+  .content p{
+		line-height: 30px;
+		padding: 10px;
+		letter-spacing: 3px;
+	}
+	.service{
+		margin-top: 30%;
+	}
+	.supplement{
+	color: black;
+	background-color: white;
+	padding: 3px;
+}
+.service{
+	background-color: gray;
+	height: 1700px;
+}
+.contents img{
+	text-align: center;
+	position: static;
+	object-fit:cover;
+}
+.section{
+	position: static;
+	background-position: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+.contents_1 img{
+	text-align: center;
+	position: static;
+	margin: 0 auto;
+}
+.section_1{
+	position: static;
+	background-position: center;
+	margin: 0 auto;
+	padding: 10px;
+
+}
+.double{
+	display: block;
+	margin-top: 10%;
+}
+.company,.recruit{
+	width: 76%;
+	margin: 0 auto;
+}
+.inquiry{
+	color: white;
+	background-image: url(contact-bg.jpg);
+		background-repeat:repeat;
+	background-size:100% auto;
+	padding-top: 30%;	
+}
+footer{
+	padding-bottom: 20px;
+}
+footer .wrapper{
+	width: 85%;
+}
+footer .header-logo{
+	text-align: center;
+	float: none;
+	padding-left: 15%;
+	letter-spacing: 1px;
+}
+
 }
