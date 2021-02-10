@@ -46,8 +46,11 @@ li{
 	font-size: 55px;
 }
 .notice{
+	position: absolute;
 	display: flex;
 	float: right;
+	bottom: 0%;
+	right: 0%;
 }
 .info{
 	margin-right: 0%;
@@ -286,6 +289,10 @@ li{
 }
 .tell{
 	border: 1px solid white;
+	padding: 10px;
+}
+.phone{
+	margin-top: 30px;
 }
 footer{
 	background-color: black;
