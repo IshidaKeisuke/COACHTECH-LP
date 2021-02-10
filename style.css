@@ -421,15 +421,15 @@ footer{
 .contents img{
 	position: static;
 	float: none;
-	margin: 35px;
 	width: 80%;
 	height: 60%;
 }
 .section{
+	vertical-align: bottom;
+	line-height: 1.0em;
 	text-align: center;
 	position: static;
-	padding: 10px;
-	margin: 0 30px;
+	padding: 5px 0;
 }
 .contents_1{
 	position: static;
@@ -445,8 +445,7 @@ footer{
 }
 .section_1{
 	position: static;
-	/* margin-top: 15%; */
-	/* padding: 10px; */
+	margin: 0;
 }
 	/* 質問ここまで */
 .double{
