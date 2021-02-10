@@ -308,6 +308,9 @@ footer{
 	margin-top: 20px;
 }
 @media screen and (max-width:768px){
+	* { 
+		margin: initial; padding: initial; 
+	}
   .hamburger {
 	width: 40px;
 	height: 40px;
@@ -355,8 +358,9 @@ footer{
 	  font-weight: bold;
   }
 .notice{
+	position: relative;
 	display: flex;
-	margin-bottom: 0%;
+	bottom: 0%;
 }
   .info p{
 	position: static;  
@@ -387,13 +391,13 @@ footer{
 		left: 20%;
 	}
 	.content h2{
-		font-size: 30px;
-		font-weight: 200;
+		font-weight: 500;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		margin-right: 10px;
 	}
   .content p{
 		line-height: 30px;
-		padding: 10px;
+		margin: 10px;
 		letter-spacing: 2px;
 	}
 	.supplement{
@@ -466,11 +470,13 @@ footer{
 footer .wrapper{
 	width: 85%;
 }
-.footer-logo{
+.footer-logo p{
 	text-align: center;
 	float: none;
 	padding-left: 15%;
 	letter-spacing: 1px;
 }
-
+.small{
+	text-align: center;
+}
 }
