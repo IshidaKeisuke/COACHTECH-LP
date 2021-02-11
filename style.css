@@ -6,6 +6,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 	font: inherit;
 	vertical-align: baseline;
 }
+	
 .wrapper{
 	background-color: black;
 	width: 97.3%;
@@ -104,10 +105,6 @@ li{
 .context{
 	margin-left: 25px;
 }
-.contents_1 img{
-	margin: 0 auto;
-	width: 95%;
-}
 .mission{
 	margin: 0;
 }
@@ -137,6 +134,10 @@ li{
 }
 .contents{
 	position:absolute;
+}
+.contents_1 img{
+	margin: 0 auto;
+	width: 95%;
 }
 .contents h2{
 	text-align: center;
@@ -314,7 +315,7 @@ footer{
 }
 
 
-
+/* ---------------------スマホサイズ----------------------- */
 @media screen and (max-width:480px){
 	* { 
 		margin: initial; padding: initial; 
@@ -347,7 +348,7 @@ footer{
 	  top: 30px;
   }
   .wrapper{
-	  width: 87%;
+	  width: 89.3%;
   }
   .wrapper li{
 	  display: none;
@@ -499,7 +500,7 @@ footer{
 .inquiry{
 	color: white;
 	background-image: url(contact-bg.jpg);
-		background-repeat:repeat;
+	background-repeat:repeat;
 	background-size:100% auto;
 	padding-top: 30%;	
 }
@@ -517,15 +518,29 @@ footer .wrapper{
 }
 }
 
+/* ---------タブレットサイズ------------- */
 
-@media (max-width:1024px){
+@media (min-width:481px)and ( max-width:1024px){
 		.wrapper{
-			width: 95%;
+			width: 96.3%;
 		}
 	
+		.content img{
+			top: 65%;
+	}
+	.section{
+		width: 60%;
+		margin-right: 15%;
+	}
+	.contents_1 img{
+		margin-top: 80%;
+	}
+	.section_1{
+		width: 60%;
+		margin-top: 85%;
+	}
 	.inquiry{
 		padding-top: 0;
 		height: 500px;
 	}
-
 }
