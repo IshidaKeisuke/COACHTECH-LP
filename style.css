@@ -278,12 +278,11 @@ li{
 	background-repeat: no-repeat;
 	background-size:100% auto;
 	height: 600px;
-	padding-top: 20%;	
 	}
 .inquiry h2{
 	font-size: 35px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	padding: 10px;
+	padding-top: 20px;
 }
 .inquiry p{
 	padding: 15px;
@@ -519,9 +518,7 @@ footer .wrapper{
 
 @media screen and (min-width: 768px) and (max-width:1023px){
 
-	.content img{
-		width: 30%;
-	}	
+
 	.inquiry{
 		padding-top: 0;
 		height: 300px;
