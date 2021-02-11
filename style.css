@@ -347,7 +347,7 @@ footer{
 	  top: 30px;
   }
   .wrapper{
-	  width: 89%;
+	  width: 87%;
   }
   .wrapper li{
 	  display: none;
@@ -415,6 +415,8 @@ footer{
 	}
 	/* 質問ここから */
 	.service{
+	position: static;
+	clear: both;
 	margin-top: 30%;
 	background-color: gray;
 	height: 1450px;
@@ -516,12 +518,14 @@ footer .wrapper{
 }
 
 
-@media screen and (min-width: 768px) and (max-width:1023px){
-
-
+@media (max-width:1024px){
+		.wrapper{
+			width: 95%;
+		}
+	
 	.inquiry{
 		padding-top: 0;
-		height: 300px;
+		height: 500px;
 	}
 
 }
