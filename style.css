@@ -29,7 +29,7 @@ li{
 	justify-content: space-evenly;
 	margin: auto 0;
 	padding: 0 10px 10px;
-	font-size: 25px;
+	font-size: 15px;
 }
 .main{
 	background-image: url("eyecatch.jpg");
@@ -107,6 +107,9 @@ li{
 }
 .context h2{
 	font-weight: bold;
+}
+.context p{
+	word-wrap: break-word;
 }
 .mission{
 	margin: 0;
@@ -552,7 +555,7 @@ footer.wrapper{
 small{
 	text-align: center;
 	padding-right: 20px;
-	padding-bottom: 20%;
+	padding-bottom: 12%;
 }
 }
 
