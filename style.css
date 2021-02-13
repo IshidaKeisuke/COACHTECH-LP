@@ -496,17 +496,17 @@ footer{
 	margin-top: 10%;
 }
 .company,.recruit{
-	height: 80%;
-	font-size: 45px;
+	font-size: 35px;
 	width: 76%;
+	height: 150px;
 	margin: 0 auto;
 	font-weight: bold;
 }
-/* .company h2,.recruit h2{
-	padding-top: ;
-} */
+.company_1,.recruit_1{
+	margin-top: 15%;
+}
 .company p,.recruit p{
-	font-size: 15px;
+	font-size: 10px;
 	font-weight: bold;
 }
 .inquiry{
@@ -538,7 +538,7 @@ footer{
 	padding-top: 10px;
 	font-size: 15px;
 }
- .wrapper{
+footer.wrapper{
 	width: 85%;
 }
 .footer-logo p{
