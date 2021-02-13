@@ -368,6 +368,9 @@ footer{
 	display: flex;
 	bottom: 0%;
 }
+.info{
+	height: 50%;
+}
   .info p{
 	position: static;  
 	background-color: white;
@@ -376,12 +379,15 @@ footer{
   }
   .news{
 	  bottom: 0%;
+	  height: 50%;
   }
   .news p{
 	  position: static;
 	background-color: black;
 	color: white;
-	padding: 46px ;
+	padding: 47px ;
+	height: 10%;
+	margin-bottom: 0;
   }
   .secondary{
 	  width: 90%;
@@ -392,10 +398,10 @@ footer{
   }
   .content img{
 		position: absolute;
-		width: 45%;
+		width: 50%;
 		height: 20%;
-		margin-top: 145%;
-		left: 55%;
+		margin-top: 165%;
+		left: 50%;
 	}
 	.context h2{
 		font-weight: 500;
@@ -418,7 +424,7 @@ footer{
 	.service{
 	position: static;
 	clear: both;
-	margin-top: 30%;
+	margin-top: 20%;
 	background-color: gray;
 	height: 1450px;
 	width: 100%;
