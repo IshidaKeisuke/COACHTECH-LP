@@ -431,26 +431,25 @@ footer{
 	width: 100%;
 }
 .secondary{
-	display: block;
 	margin-top: 0%;
 }
 .contents{
 	position: static;
 }
-.contents img{
+.contents img,.contents_1 img{
 	position: static;
 	float: none;
-	width: 81.5%;
+	width: 82.5%;
 	height: 70%;
 	vertical-align: bottom;
 	margin-left: 55px;
 }
 .section,.section_1{
-	width: 81.5%;
+	width: 82.5%;
 	height: 60%;
 	text-align: left;
 	position: static;
-	padding: 5px 0;
+	padding: 1px 0;
 	margin-top: 0%;
 	margin-right:  20px;
 	margin-left: 55px;
@@ -461,9 +460,6 @@ footer{
 	font-weight: normal;
 	font-family: initial;
 }
-/* .detail{
-	margin-bottom: 45px;
-} */
 .details{
 	padding: 10px;
 	margin-left: 35%;
@@ -473,22 +469,10 @@ footer{
 	padding: 0;
 
 }
-.contents_1 img{
-	position: static;
-	float: none;
-	width: 81.5%;
-	height: 70%;
-	vertical-align: bottom;
-	margin-left: 55px;
-}
-.section_1 h2,.section_1 h3{
+
+.section_1 h2,.section_1 h3,.section_1 p{
 	text-align: left;
 	padding-left: 15px;
-}
-
-.section_1 p{
-	text-align: left;
-	margin-left: 5px;
 }
 .detail{
 	margin-bottom: 15%;
@@ -512,14 +496,18 @@ footer{
 }
 .question{
 	height: 100px;
-	padding-top: 60px;
+	width: 93%;
+	margin-left: 10px;
 }
 .faq{
-	font-size: 25px;
+	font-size: 30px;
+	margin-left: 55px;
 	padding-left: 15px;
+	font-weight: bold;
 }
 .situmon{
-	padding-right: 10px;
+	text-align: center;
+	margin-right: 20%;
 	padding-top: 10px;
 	font-size: 15px;
 }
@@ -551,8 +539,10 @@ footer .wrapper{
 			right: 5%;
 	}
 	.section{
-		width: 60%;
-		margin-right: 15%;
+		height: 40%;
+		width: 50%;
+		margin-right: 25%;
+		margin-top: 10%;
 	}
 	.contents_1 img{
 		margin-top: 80%;
@@ -560,6 +550,10 @@ footer .wrapper{
 	.section_1{
 		width: 60%;
 		margin-top: 85%;
+		height: 20%;
+		padding-left: 25px;
+		padding-right: 25px;
+		
 	}
 	.inquiry{
 		padding-top: 0;
