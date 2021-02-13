@@ -496,11 +496,15 @@ footer{
 	margin-top: 10%;
 }
 .company,.recruit{
+	height: 80%;
 	font-size: 45px;
 	width: 76%;
 	margin: 0 auto;
 	font-weight: bold;
 }
+/* .company h2,.recruit h2{
+	padding-top: ;
+} */
 .company p,.recruit p{
 	font-size: 15px;
 	font-weight: bold;
@@ -510,8 +514,12 @@ footer{
 	background-image: url(contact-bg.jpg);
 	background-repeat:repeat;
 	background-size:100% auto;
-	height: 80%;
-	padding-top: 30%;	
+	height: 100%;
+	padding: 5%;	
+}
+.tell{
+	padding:10px 20px ;
+	margin-bottom: 30%;
 }
 .question{
 	height: 100px;
@@ -530,7 +538,7 @@ footer{
 	padding-top: 10px;
 	font-size: 15px;
 }
-footer .wrapper{
+ .wrapper{
 	width: 85%;
 }
 .footer-logo p{
