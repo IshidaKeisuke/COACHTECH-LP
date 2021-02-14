@@ -361,13 +361,14 @@ footer{
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 500px;
+	height: 700px;
 	position: relative;
 	overflow: hidden;
   }
   .text p{
 	  font-size: 60px;
 	  font-weight: bold;
+	  margin-top: 10px;
   }
 .notice{
 	position: relative;
@@ -376,22 +377,25 @@ footer{
 }
 .info{
 	height: 50%;
+	margin-top: 50%;
 }
   .info p{
 	position: static;  
 	background-color: white;
 	bottom: 15px;
 	padding-left: 0%;
+	padding-right: 0%;
   }
   .news{
 	  bottom: 0%;
+	  margin-top: 50%;
 	  height: 50%;
-  }
+	}
   .news p{
 	  position: static;
 	background-color: black;
 	color: white;
-	padding: 47px ;
+	padding: 53px ;
 	margin-bottom: 0;
   }
   .secondary{
