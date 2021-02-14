@@ -58,10 +58,10 @@ li{
 }
 .info p{
 	background-color: white;
-	padding:30px 80px 36px;
+	padding:30px 50px 25px;
 	margin-right: 65%;
 	width: 100%;
-	height: auto;
+	height: 50%;
 }
 .news p{
 	text-align: center;
@@ -164,13 +164,12 @@ li{
 	color: black;
 }
 .section h2{
-	font-weight: 100;
+	text-align: initial;
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
-	text-align: left;
 	padding-top: 50px;	
-	padding-left: 10px;
+	padding-left: 15px;
 }
  .section h3,.section p{
 	padding-top: 15px;
@@ -232,22 +231,30 @@ li{
 	background-size:100% ;
 	background-position: left;
 	height: 50%;
-	width: 15%;
+	width: 30%;
 	color: white;
 	text-align: center;
 	padding:12%;
+	font-weight: bold;
+}
+.company h2,.recruit h2{
+	font-size: 25px;
+}
+.company p,.recruit p{
+	font-size: 15px;
 }
 .recruit{
 	background-image: url(recruit.jpg);
 	background-repeat: no-repeat;
 	background-size:100% ;
+	background-position: right;
 	height: 50%;
-	width: 15%;
+	width: 30%;
 	color: white;
 	text-align: center;
-	margin-top: 20px;
 	margin-left: 25%;
 	padding:12%;
+	font-weight: bold;
 }
 .question{
 	background-color: black;
@@ -282,6 +289,7 @@ li{
 	background-repeat: no-repeat;
 	background-size:100% auto;
 	height: 600px;
+	padding-top: 15%;
 	}
 .inquiry h2{
 	font-size: 35px;
@@ -361,14 +369,14 @@ footer{
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 700px;
+	height: 800px;
 	position: relative;
 	overflow: hidden;
   }
   .text p{
 	  font-size: 60px;
 	  font-weight: bold;
-	  margin-top: 10px;
+	  margin-top: 35%;
   }
 .notice{
 	position: relative;
@@ -377,7 +385,7 @@ footer{
 }
 .info{
 	height: 50%;
-	margin-top: 50%;
+	margin-top: 45%;
 }
   .info p{
 	position: static;  
@@ -388,7 +396,7 @@ footer{
   }
   .news{
 	  bottom: 0%;
-	  margin-top: 50%;
+	  margin-top: 45%;
 	  height: 50%;
 	}
   .news p{
@@ -409,7 +417,7 @@ footer{
 		position: absolute;
 		width: 50%;
 		height: 20%;
-		margin-top: 165%;
+		margin-top: 235%;
 		left: 50%;
 	}
 	.context h2{
@@ -446,7 +454,8 @@ footer{
 	position: static;
 }
 .contents h2{
-	padding: 0%;
+	text-align: center;
+	font-size: 45px;
 }
 .contents img,.contents_1 img{
 	position: static;
@@ -571,7 +580,6 @@ small{
 		.wrapper{
 			width: 96.3%;
 		}
-	
 		.content img{
 			width: 40%;
 			height: 20%;
